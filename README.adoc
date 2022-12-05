@@ -25,7 +25,7 @@ Or download the *.whl files and install it with `pip install *.whl`.
 
 ## Usage
 
-    from paradeps import Dependent
+    from paradeps import Dep, resolve_deps
 
     class Item(Dep):
        ...
