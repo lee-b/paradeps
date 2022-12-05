@@ -26,20 +26,20 @@ Or download the *.whl files and install it with `pip install *.whl`.
 ## Usage
 
     from paradeps import Dep, resolve_deps
-
+    
     class Item(Dep):
        ...
-
+    
     def process_items_in_parallel(items):
        ...
-
+    
     items = [Item() for i in range(5)]
-
+    
     items[0].add_dependency(items[2])
     items[2].add_dependency(items[4])
-
+    
     tiers = resolve_deps(items)
-
+    
     for tier in tiers:
         process_items_in_parallel(tier)
 
@@ -52,4 +52,3 @@ Released under the terms of Affero GPL version 3.0 only.  See `LICENSE.txt` for 
 ## Authors / Contact
 
 Email mailto::leebraid@gmail.com[mailto::leebraid@gmail.com].
-
