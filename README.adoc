@@ -51,4 +51,6 @@ Released under the terms of Affero GPL version 3.0 only.  See `LICENSE.txt` for 
 
 ## Authors / Contact
 
-Email mailto::leebraid@gmail.com[mailto::leebraid@gmail.com].
+File issues at https://github.com/lee-b/paradeps/issues/
+
+Email mailto:leebraid@gmail.com[leebraid@gmail.com].
