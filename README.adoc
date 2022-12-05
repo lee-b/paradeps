@@ -1,12 +1,26 @@
 # paradeps
 
-## This resolves dependencies into parallelizable execution tiers.  For example, given the inputs:
+## Overview
+
+This resolves dependencies into parallelizable execution tiers.  For example, given the inputs:
 
     a, b, c, d, f
 
 Where a and b depend on f, this will return:
 
     [{c,d,f}, {a,b}]
+
+
+## Requirements
+
+Python 3.10+
+
+
+## Installation
+
+    pip install paradeps
+
+Or download the *.whl files and install it with `pip install *.whl`.
 
 
 ## Usage
@@ -32,9 +46,10 @@ Where a and b depend on f, this will return:
 
 ## License
 
-Released under the terms of Aferro GPL version 3.0 only.  See `LICENSE.txt` for further details.
+Released under the terms of Affero GPL version 3.0 only.  See `LICENSE.txt` for further details.
 
 
 ## Authors / Contact
 
 Email mailto::leebraid@gmail.com[mailto::leebraid@gmail.com].
+

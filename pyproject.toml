@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "paradeps"
-version = "0.1.0"
+version = "0.1.1"
 description = "Resolves dependencies into tiers suitable for parallel work"
 authors = ["Lee Braiden <leebraid@gmail.com>"]
 readme = "README.adoc"
@@ -18,3 +18,4 @@ python = "^3.10"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
