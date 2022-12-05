@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "paradeps"
+version = "0.1.0"
+description = "Resolves dependencies into tiers suitable for parallel work"
+authors = ["Lee Braiden <leebraid@gmail.com>"]
+readme = "README.adoc"
+license = "AGPL-3.0-only"
+packages = [
+	{ include="paradeps", from="src" },
+]
+
+[tool.poetry.scripts]
+deps = "deps.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
